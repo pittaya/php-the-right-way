@@ -1,8 +1,6 @@
-# Welcome
+# ยินดีต้อนรับ
 
-There's a lot of outdated information on the Web that leads new PHP users astray, propagating bad practices and bad
-code. This must stop. _PHP: The Right Way_ is an easy-to-read, quick reference for PHP best practices, accepted coding
-standards, and links to authoritative tutorials around the Web.
+มีข้อมูลในเว็บมากมายที่เก่าเกินไปแล้ว จนทำให้ผู้ศึกษา PHP หน้าใหม่หลงทาง แพร่พันธุ์วิธีการผิดๆ และโค้ดที่ย่ำแย่ออกไป ซึ่งเรื่องเหล่านี้คงต้องได้เวลาหยุดเสียที ซึ่ง _PHP: The Right Way_ จะเป็นคู่มือที่อ่านง่าย ใช้สำหรับอ้างอิงสำหรับวิธีการทำงานที่ดี รูปแบบโค้ดที่เป็นมาตรฐาน รวมถึงเชื่อมโยงไปยังบทเรียนต่างๆ ที่น่าเชื่อถือได้บนเว็บ
 
 ## Translations
 
