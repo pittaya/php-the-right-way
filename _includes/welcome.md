@@ -6,14 +6,15 @@
 
 _PHP: The Right Way_ ถูกแปล (หรือจะแปลเร็วๆ นี้) เป็นภาษาอื่นๆ มากมาย:
 
-* [ภาษาอังกฤษ](http://www.phptherightway.com)
-* [ภาษาจีน](http://wulijun.github.com/php-the-right-way)
-* [ภาษาญี่ปุ่น](http://ja.phptherightway.com)
-* ภาษาโปแลนด์ (เร็วๆ นี้)
-* ภาษาโปรตุเกส (เร็วๆ นี้)
-* ภาษารัสเซีย (เร็วๆ นี้)
-* [ภาษาสเปน](http://es.phptherightway.com)
-* ภาษายูเครน (เร็วๆ นี้)
+* [อังกฤษ](http://www.phptherightway.com)
+* [จีน](http://wulijun.github.com/php-the-right-way)
+* [ญี่ปุ่น](http://ja.phptherightway.com)
+* โปแลนด์ (เร็วๆ นี้) <!-- Soon) -->
+* โปรตุเกส (เร็วๆ นี้) <!-- (Coming Soon) -->
+* รัสเซีย (เร็วๆ นี้) <!-- (Coming Soon) -->
+* [สเปน](http://es.phptherightway.com)
+* ภาษายูเครน (เร็วๆ นี้) <!-- (Coming Soon) -->
+
 
 ## ข้อถือสิทธิ์
 
