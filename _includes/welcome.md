@@ -1,38 +1,38 @@
-# Welcome
+# ยินดีต้อนรับ
 
-There's a lot of outdated information on the Web that leads new PHP users astray,
-propagating bad practices and insecure code. _PHP: The Right Way_ is an easy-to-read,
-quick reference for PHP popular coding standards, links to authoritative tutorials
-around the Web and what the contributors consider to be best practices at the present
-time.
+เนื้อหาบนเว็บที่ล้าสมัยไปแล้วมากมาย อาจทำให้ผู้ใช้ PHP หน้าใหม่หลงผิด, 
+ผลิตซ้ำโค้ดที่มีแนวทางไม่เหมาะสม หรือไม่ปลอดภัย _PHP: The Right Way_ 
+เป็นแหล่งอ้างอิงแบบเข้าใจง่ายและรวดเร็ว สำหรับการเขียน PHP อย่างถูกวิธี 
+มีลิงก์ไปหา tutorial อื่นบนเว็บที่ contributor 
+เห็นว่าเป็นวิธีเขียนโค้ดที่เหมาะสม ณ เวลานั้นๆ
 
-_There is no canonical way to use PHP_. This website aims to introduce new PHP
-developers to some topics which they may not discover until it is too late, and aims
-to give seasoned pros some fresh ideas on those topics they've been doing for years
-without ever reconsidering. This website will also not tell you which tools to use, but
-instead offer suggestions for multiple options, when possible explaining the differences
-in approach and use-case.
+_การเขียน PHP ไม่มีรูปแบบตายตัว_ เป้าหมายของเว็บไซต์นี้คือแนะนำนักพัฒนา PHP 
+หน้าใหม่ให้รู้จักบางเรื่องที่จำเป็นก่อนจะสายเกินไป 
+และให้ไอเดียสดใหม่กับนักพัฒนาที่มีประสบการณ์ได้ทบทวนในเรื่องเหล่านี้
+ที่ทำมานานหลายปีแล้ว เว็บไซต์นี้จะไม่บอกให้คุณใช้ tool ไหน 
+แต่จะให้คำแนะนำของหลายๆ ตัวเลือก 
+และอธิบายถึงความแตกต่างของแต่ละวิธีในแต่ละสถานการณ์
 
-This is a living document and will continue to be updated with more helpful information
-and examples as they become available.
+เอกสารนี้ไม่หยุดนิ่งและจะมีการปรับปรุงอยู่เรื่อยๆ 
+เมื่อมีเนื้อหาและตัวอย่างที่เป็นประโยชน์
 
-## Translations
+## การแปล
 
-_PHP: The Right Way_ is (or soon will be) translated into many different languages:
+_PHP: The Right Way_ ได้รับการแปล (หรือกำลังจะแปล) เป็นหลายภาษา:
 
-* [English](http://www.phptherightway.com)
-* [Chinese (Simplified)](http://wulijun.github.com/php-the-right-way)
-* [Japanese](http://ja.phptherightway.com)
-* [Korean](http://wafe.github.io/php-the-right-way/)
-* [Italian](http://it.phptherightway.com/)
-* [Polish](http://pl.phptherightway.com/)
-* [Portuguese](http://br.phptherightway.com/)
-* [Russian](http://getjump.github.io/ru-php-the-right-way)
-* [Spanish](http://lamaneracorrecta.php.org.ve)
-* [Ukrainian](http://iflista.github.com/php-the-right-way/)
-* [Bulgarian](http://bg.phptherightway.com/)
-* [German](http://rwetzlmayr.github.io/php-the-right-way/)
-* [Turkish](http://hkulekci.github.io/php-the-right-way/)
+* [อังกฤษ](http://www.phptherightway.com)
+* [จีน](http://wulijun.github.com/php-the-right-way)
+* [ญี่ปุ่น](http://ja.phptherightway.com)
+* [เกาหลี](http://wafe.github.io/php-the-right-way/)
+* [อิตาลี](http://it.phptherightway.com/)
+* [โปแลนด์](http://pl.phptherightway.com/)
+* [โปรตุเกส](http://br.phptherightway.com/)
+* [รัสเซีย](http://getjump.github.io/ru-php-the-right-way)
+* [สเปน](http://lamaneracorrecta.php.org.ve)
+* [ยูเครน](http://iflista.github.com/php-the-right-way/)
+* [บัลแกเรีย](http://bg.phptherightway.com/)
+* [เยอรมัน](http://rwetzlmayr.github.io/php-the-right-way/)
+* [ตุรกี](http://hkulekci.github.io/php-the-right-way/)
 
 ## How to Contribute
 

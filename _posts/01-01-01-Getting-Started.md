@@ -1,2 +1,2 @@
-# Getting Started {#getting_started_title}
+# เริ่มใช้งาน {#getting_started_title}
 

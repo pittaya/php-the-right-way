@@ -1,11 +1,14 @@
 ---
-title: Use the Current Stable Version (5.5)
+title: ใช้รุ่นเสถียรล่าสุด (5.5)
 isChild: true
 ---
 
-## Use the Current Stable Version (5.5) {#use_the_current_stable_version_55_title}
+## ใช้รุ่นเสถียรล่าสุด (5.5) {#use_the_current_stable_version_55_title}
 
-If you are just getting started with PHP make sure to start with the current stable release of [PHP 5.5][php-release]. PHP has made great strides adding powerful [new features](#language_highlights) over the last few years. Don't let the minor version number difference between 5.2 and 5.5 fool you, it represents _major_ improvements. If you are looking for a function or its usage, the documentation on the [php.net][php-docs] website will have the answer.
+ถ้าคุณเพิ่งเริ่มหัดใช้ PHP แนะนำให้ใช้ [PHP 5.5][php-release] ซึ่งเป็นรุ่นเสถียรตัวล่าสุด
+ในช่วงปีหลังๆ นี้ PHP มีการเพิ่ม[ความสามารถใหม่ๆ](#language_highlights) เข้าไปหลายส่วน
+อย่าถูกหลอกด้วยเลขเวอร์ชันที่อาจต่างกันเพียงแค่ 5.2 กับ 5.5 แต่ที่จริงแล้วมีการปรับปรุง _เยอะมาก_
+ถ้าคุณมองหาฟังก์ชันหรือวิธีการใช้งาน สามารถดูได้จากคู่มือบนเว็บ [php.net][php-docs]
 
 [php-release]: http://www.php.net/downloads.php
 [php-docs]: http://www.php.net/manual/en/

@@ -4,29 +4,29 @@ isChild: true
 
 ## Vagrant {#vagrant_title}
 
-Running your application on different environments in development and production can lead to strange bugs 
-popping up when you go live. It's also tricky to keep different development environments up to date with the same 
-version for all libraries used when working with a team of developers. 
+การรันโปรแกรมที่คุณเขียนบนสภาพแวดล้อมที่แตกต่างกันระหว่างขณะกำลังพัฒนากับสภาพแวดล้อมจริง
+อาจทำให้เกิดบั๊กแปลกๆ ที่พบเฉพาะเวลาใช้งานจริง การทำให้สภาพแวดล้อมในการพัฒนาของโปรแกรมเมอร์แต่ละคน
+ตรงกัน ใช้ไลบรารีเดียวกัน เป็นเรื่องวุ่นวายไม่น้อย
 
-If you are developing on Windows and deploying to Linux (or anything non-Windows) or are developing in a team, you 
-should consider using a virtual machine. This sounds tricky, but using [Vagrant][vagrant] you can set up a simple 
-virtual machine with only a few steps. These base boxes can then be set up manually, or you can use "provisioning" 
-software such as [Puppet][puppet] or [Chef][chef] to do this for you. Provisioning the base box is a great way to 
-ensure that multiple boxes are set up in an identical fashion and removes the need for you to maintain complicated 
-"set up" command lists. You can also "destroy" your base box and recreate it without many manual steps, making it
-easy to create a "fresh" installation.
+ถ้าคุณพัฒนาโปรแกรมบน Windows แล้วต้องเอาไปรันบน Linux (หรืออะไรที่ไม่ใช่ Windows) หรือช่วยกันพัฒนาหลายคน
+คุณควรจะทำงานบน virtual machine มากกว่า อาจจะฟังดูยุ่งยาก แต่ถ้าใช้ [Vagrant][vagrant] คุณสามารถเซต
+virtual machine ขึ้นมาได้ในไม่กี่ขั้นตอน เครื่องที่สร้างขึ้นมานี้อาจสร้างขึ้นมาแบบ manual หรือให้โปรแกรมจัดให้
+(provisioning) โดยใช้ [Puppet][puppet] หรือ [Chef][chef] ก็ได้ การสร้าง virtual machine ด้วยวิธีนี้
+รับประกันได้ว่าเครื่องที่ถูกสร้างขึ้นจะออกมาเหมือนกัน และคุณไม่ต้องคอยจัดการขั้นตอนการติดตั้งที่ซับซ้อน
+คุณยังสามารถทำลาย (destroy) เครื่องแล้วสร้างขึ้นมาใหม่ได้ง่ายๆ โดยไม่ต้องทำเองแบบ manual ทุกขั้นตอน
+ทำให้การสร้าง "fresh" installation เป็นเรื่องง่ายดาย
 
-Vagrant creates shared folders used to share your code between your host and your virtual machine, meaning you can 
-create and edit your files on your host machine and then run the code inside your virtual machine.
+Vagrant ใช้ shared folders สำหรับแชร์ไฟล์ระหว่างเครื่องของคุณกับ virtual machine 
+นั่นคือ คุณสามารถสร้างหรือแก้ไขไฟล์บนเครื่องของคุณ แล้วรันโค้ดจากใน virtual machine ได้ทันที
 
-### A little help
+### ความช่วยเหลือเล็กๆ น้อยๆ
 
-If you need a little help to start using Vagrant there are three services that might be useful:
+ถ้าคุณต้องการความช่วยเหลือในการเริ่มใช้งาน Vagrant มีบริการที่มีประโยชน์อยู่สามตัว:
 
-- [Rove][rove]: service that allows you to pregenerate typical Vagrant builds, PHP among the options. The
-  provisioning is made with Chef.
-- [Puphpet][puphpet]: simple GUI to set up virtual machines for PHP development. **Heavily focused in PHP**. Besides
-  local VMs, can be used to deploy to cloud services as well. The provisioning is made with Puppet.
+- [Rove][rove]: บริการสำหรับสร้าง Vagrant build แบบเลือกโปรแกรมใช้งานได้เอง มี PHP ให้เลือกด้วย
+  ตัวติดตั้งเป็น Chef
+- [Puphpet][puphpet]: เว็บสำหรับสร้าง virtual machine สำหรับพัฒนาโปรแกรมด้วย PHP **โฟกัสกับ PHP เป็นพิเศษ**
+  ตัวติดตั้งเป็น Puppet นอกจากใช้สร้าง local VM แล้วยังสามารถนำไปติดตั้งลง cloud service ได้ด้วย
 - [Protobox][protobox]: is a layer on top of vagrant and a web GUI to setup virtual machines for web development. A single YAML document controls everything that is installed on the virtual machine.
 
 [vagrant]: http://vagrantup.com/
