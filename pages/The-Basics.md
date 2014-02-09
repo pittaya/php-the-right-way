@@ -36,7 +36,7 @@ if (strpos('testing', 'test') !== false) {    // true, as strict comparison was 
 * [Comparison operators](http://php.net/manual/en/language.operators.comparison.php)
 * [Comparison table](http://php.net/manual/en/types.comparisons.php)
 
-## Conditional arguments
+## Conditional statements
 
 ### If statements
 
@@ -104,8 +104,8 @@ function test($a)
 
 ## Global namespace
 
-While using namespaces, you may find your code being executed in the wrong scope for internal methods. To fix this,
-define the method globally by using a backslash before the method.
+When using namespaces, you may find that internal functions are hidden by functions you wrote. To fix this,
+refer to the global function by using a backslash before the function name.
 
 {% highlight php %}
 <?php
@@ -113,14 +113,14 @@ namespace phptherightway;
 
 function fopen()
 {
-    $file = \fopen();    // our function name is the same as an internal function
-                         // execute globally by adding '\'.
+    $file = \fopen();    // Our function name is the same as an internal function.
+                         // Execute the function from the global space by adding '\'.
 }
 
 function array()
 {
-    $iterator = new \ArrayIterator();    // ArrayIterator is an internal class. Using it without a backslash
-                                         // will execute it within the namespace scope
+    $iterator = new \ArrayIterator();    // ArrayIterator is an internal class. Using its name without a backslash
+                                         // will attempt to resolve it within your namespace.
 }
 {% endhighlight %}
 
@@ -293,12 +293,17 @@ $b = 10;
 echo ($a) ? ($a == 5) ? 'yay' : 'nay' : ($b == 10) ? 'excessive' : ':(';    // excess nesting, sacrificing readability
 {% endhighlight %}
 
-Ternary operators also have their limitations and cannot be used to 'return' a value.
+To 'return' a value with ternary operators use the correct syntax.
 
 {% highlight php %}
 <?php
 $a = 5;
 echo ($a == 5) ? return true : return false;    // this example will output an error
+
+vs.
+
+$a = 5;
+return ($a == 5) ? 'yay' : 'nope';    // this example will return 'yay'
 {% endhighlight %}
 
 * [Ternary operators](http://php.net/manual/en/language.operators.comparison.php)
@@ -320,4 +325,4 @@ vs.
 echo 'A very long string of text';        // uses 1MB memory
 {% endhighlight %}
 
-* [Performace tips](https://developers.google.com/speed/articles/optimizing-php)
+* [Performance tips](https://developers.google.com/speed/articles/optimizing-php)

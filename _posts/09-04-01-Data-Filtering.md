@@ -2,7 +2,7 @@
 isChild: true
 ---
 
-## Data Filtering
+## Data Filtering {#data_filtering_title}
 
 Never ever (ever) trust foreign input introduced to your PHP code. Always sanitize and validate
 foreign input before using it in code. The `filter_var` and `filter_input` functions can sanitize text and validate text formats (e.g.
@@ -19,8 +19,10 @@ the data is filtered properly and can it be trusted.
 
 Data may be _filtered_ differently based on its purpose. For example, when unfiltered foreign input is passed
 into HTML page output, it can execute HTML and JavaScript on your site! This is known as Cross-Site
-Scripting (XSS) and can be a very dangerous attack. One way to avoid XSS is to sanitize all HTML tags
-in the input by removing tags or escaping them into HTML entities.
+Scripting (XSS) and can be a very dangerous attack. One way to avoid XSS is to sanitize all user-generated
+data before outputting it to your page by removing HTML tags with the `strip_tags` function or escaping
+characters with special meaning into their respective HTML entities with the `htmlentities`
+or `htmlspecialchars` functions.
 
 Another example is passing options to be executed on the command line. This can be extremely dangerous
 (and is usually a bad idea), but you can use the built-in `escapeshellarg` function to sanitize the executed
